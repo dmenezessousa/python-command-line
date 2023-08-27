@@ -1,0 +1,5 @@
+CREATE USER cli_user;
+
+CREATE DATABASE contacts WITH OWNER cli_user;
+
+GRANT ALL PRIVILEGES ON DATABASE contacts TO cli_user;
